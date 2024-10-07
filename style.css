@@ -1,0 +1,28 @@
+html {
+    background-color: rgb(220, 150, 25);
+}
+
+body {
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+    word-wrap: break-word;
+}
+
+h1{
+    font-family: "Ibm Plex Mono", sans-serif;
+    font-size: 36pt;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+nav > a {
+    font-family: "Ibm Plex Mono", monospace;
+    font-size: 12pt;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
