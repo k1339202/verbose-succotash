@@ -17,7 +17,7 @@ h1{
     margin-bottom: 0.25em;
 }
 
-nav > a {
+a {
     font-family: "Ibm Plex Mono", monospace;
     font-size: 12pt;
     text-decoration: none;
@@ -25,4 +25,9 @@ nav > a {
 
 a:hover {
     text-decoration: underline;
+}
+
+hr {
+    size: 10px;
+    border: 1px solid;
 }
