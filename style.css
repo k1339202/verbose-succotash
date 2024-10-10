@@ -1,51 +1,79 @@
 html {
-    background-color: rgb(243, 137, 16);
+  background-color: rgb(243, 137, 16);
 }
 
 body {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    color: white;
-    word-wrap: break-word;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  color: white;
+  word-wrap: break-word;
 }
 
-h1{
-    font-family: "Ibm Plex Mono", sans-serif;
-    font-size: 36pt;
-    font-weight: bold;
-    margin-top: 0.25em;
-    margin-bottom: 0.25em;
+h1 {
+  font-family: "Ibm Plex Mono", sans-serif;
+  font-size: 36pt;
+  font-weight: bold;
+  margin-top: 0.1rem;
+  margin-bottom: 0.25rem;
 }
 
-h2{
-    font-family: "Ibm Plex Mono", sans-serif;
-    font-size: 24pt;
-    font-weight: bold;
-    margin-top: 0.25em;
-    margin-bottom: 0.25em;
-}
+h2 {
+  font-family: "Ibm Plex Mono", sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0.25rem;
 
+}
 
 a {
-    font-family: "Ibm Plex Mono", monospace;
-    font-size: 12pt;
-    text-decoration: none;
+  font-family: "Ibm Plex Mono", monospace;
+  font-size: 12pt;
+  text-decoration: none;
+  color: white;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 hr {
-    size: 10px;
-    border: 1px solid;
+  margin: 0.25rem;
+  size: 10px;
+  border: 1px solid;
 }
 
 pre {
-    font-family: "Ibm Plex Mono", monospace;
-    height: fit-content;
-    font-weight: bold;
-    max-width: fit-content;
+  font-family: "Ibm Plex Mono", monospace;
+  height: fit-content;
+  font-weight: bold;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 10pt;
+}
+
+hgroup {
+    width: fit-content;
     margin-left: auto;
     margin-right: auto;
+}
+
+.definiton {
+  padding-left: 1em;
+  text-indent: 1em;
+  font-family: "Ibm Plex Mono", monospace;
+  font-size: 1rem;
+  width: 80rem;
+}
+
+.bottomBar {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.bottomBar > a {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
